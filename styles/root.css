@@ -1,0 +1,25 @@
+:root, html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+
+    /* Disable userselect */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #060606;
+    --accent-color: #ffe4c4;
+
+    /* Setup main vars */
+    background-color: var(--main-color);
+    color: var(--accent-color);
+    font-family: monospace;
+}
